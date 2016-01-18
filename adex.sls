@@ -6,9 +6,8 @@
 {% endif %}
 # Source: http://www.cpuid.com/softwares/cpu-z.html
 adex:
-	'2.68-06':
-	full_name: 'PaloMARS AdEx 2.68-06'
-	installer: 'salt://win/repo-ng/adex/adex_2.68-06.exe'
+	full_name: 'adex'
+	installer: 'http://192.168.38.206/adex2686_upd.exe'
 	#install_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
 	uninstaller: '{{ PROGRAM_FILES }}\CPU-Z\unins000.exe'
 	#uninstall_flags: '/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
